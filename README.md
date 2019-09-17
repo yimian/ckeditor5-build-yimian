@@ -13,4 +13,5 @@ The origin repo is [here](https://github.com/ckeditor/ckeditor5-build-classic)
 It adds these plugins:
 
 1. ImageResize
+2. SimpleUploadAdapter
 

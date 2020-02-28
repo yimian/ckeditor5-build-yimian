@@ -106,4 +106,4 @@ ClassicEditor.defaultConfig = {
 	language: 'en'
 };
 
-ClassicEditor.execute('imageStyle', { value: 'alignCenter' });
+ClassicEditor.execute( 'imageStyle', { value: 'alignCenter' } );

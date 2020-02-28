@@ -83,13 +83,13 @@ ClassicEditor.defaultConfig = {
 	},
 	image: {
 		styles: [
-			{ name: 'alignCenter', title: 'Default center', icon: alignCenterIcon, className: 'image-style-align-center', isDefault: true },
 			{ name: 'full', title: 'Full size', icon: fullSizeIcon },
-			{ name: 'side', title: 'To the side', icon: sideIcon, className: 'side-image' }
+			{ name: 'alignCenter', title: 'Default center', icon: alignCenterIcon, isDefault: true },
+			{ name: 'side', title: 'To the side', icon: sideIcon }
 		],
 		toolbar: [
-			'imageStyle:alignCenter',
 			'imageStyle:full',
+			'imageStyle:alignCenter',
 			'imageStyle:side',
 			'|',
 			'imageTextAlternative'

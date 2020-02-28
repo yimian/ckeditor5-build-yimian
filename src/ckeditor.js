@@ -31,8 +31,7 @@ import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import SimpleUploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/simpleuploadadapter';
 import fullSizeIcon from '@ckeditor/ckeditor5-core/theme/icons/object-center.svg';
 import sideIcon from '@ckeditor/ckeditor5-core/theme/icons/object-right.svg';
-import defaultCenterIcon from '@ckeditor/ckeditor5-core/theme/icons/object-left.svg';
-// import defaultCenterIcon from './center-default.svg';
+import alignCenterIcon from './center-default.svg';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -84,12 +83,12 @@ ClassicEditor.defaultConfig = {
 	},
 	image: {
 		styles: [
-			{ name: 'myDefault', title: 'Default center', icon: defaultCenterIcon, className: 'side-image', isDefault: true },
+			{ name: 'alignCenter', title: 'Default center', icon: alignCenterIcon, className: 'image-style-align-center', isDefault: true },
 			{ name: 'full', title: 'Full size', icon: fullSizeIcon },
 			{ name: 'side', title: 'To the side', icon: sideIcon, className: 'side-image' }
 		],
 		toolbar: [
-			'imageStyle:myDefault',
+			'imageStyle:alignCenter',
 			'imageStyle:full',
 			'imageStyle:side',
 			'|',

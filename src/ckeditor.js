@@ -31,7 +31,8 @@ import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import SimpleUploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/simpleuploadadapter';
 import fullSizeIcon from '@ckeditor/ckeditor5-core/theme/icons/object-center.svg';
 import sideIcon from '@ckeditor/ckeditor5-core/theme/icons/object-right.svg';
-import defaultCenterIcon from './center-default.svg';
+import defaultCenterIcon from '@ckeditor/ckeditor5-core/theme/icons/object-left.svg';
+// import defaultCenterIcon from './center-default.svg';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 

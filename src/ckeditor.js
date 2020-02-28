@@ -84,12 +84,12 @@ ClassicEditor.defaultConfig = {
 	},
 	image: {
 		styles: [
-			{ name: 'default', title: 'Default center', icon: defaultCenterIcon, className: 'default-center-image', isDefault: true },
+			{ name: 'myDefault', title: 'Default center', icon: defaultCenterIcon, className: 'side-image', isDefault: true },
 			{ name: 'full', title: 'Full size', icon: fullSizeIcon },
 			{ name: 'side', title: 'To the side', icon: sideIcon, className: 'side-image' }
 		],
 		toolbar: [
-			'imageStyle:default',
+			'imageStyle:myDefault',
 			'imageStyle:full',
 			'imageStyle:side',
 			'|',

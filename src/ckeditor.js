@@ -83,7 +83,7 @@ ClassicEditor.defaultConfig = {
 	},
 	image: {
 		styles: [
-			{ name: 'default', title: 'Default center', icon: defaultCenterIcon, className: 'default-center', isDefault: true },
+			{ name: 'default', title: 'Default center', icon: defaultCenterIcon, className: 'default-center-image', isDefault: true },
 			{ name: 'full', title: 'Full size', icon: fullSizeIcon },
 			{ name: 'side', title: 'To the side', icon: sideIcon, className: 'side-image' }
 		],

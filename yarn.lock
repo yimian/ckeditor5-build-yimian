@@ -209,19 +209,6 @@
     "@ckeditor/ckeditor5-ui" "^14.0.0"
     "@ckeditor/ckeditor5-utils" "^14.0.0"
 
-"@ckeditor/ckeditor5-image@17.0.0":
-  version "17.0.0"
-  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-image/-/ckeditor5-image-17.0.0.tgz#a9feaf1e5e60e847e1c59fc692e5a5576c367286"
-  integrity sha512-I0yXh/QfiDnv8XBhBN3XJx6VYzMhc9/JcdLj2+xShd73xsWt9S+BqsJl8c/gfWmgSq5wzSrFb/QkGbnqQ+iivQ==
-  dependencies:
-    "@ckeditor/ckeditor5-clipboard" "^17.0.0"
-    "@ckeditor/ckeditor5-core" "^17.0.0"
-    "@ckeditor/ckeditor5-engine" "^17.0.0"
-    "@ckeditor/ckeditor5-ui" "^17.0.0"
-    "@ckeditor/ckeditor5-upload" "^17.0.0"
-    "@ckeditor/ckeditor5-utils" "^17.0.0"
-    "@ckeditor/ckeditor5-widget" "^17.0.0"
-
 "@ckeditor/ckeditor5-image@^14.0.0":
   version "14.0.0"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-image/-/ckeditor5-image-14.0.0.tgz#21456e2a1ed39c7a2d230540a2709455c3394f20"
@@ -233,6 +220,19 @@
     "@ckeditor/ckeditor5-upload" "^12.0.0"
     "@ckeditor/ckeditor5-utils" "^14.0.0"
     "@ckeditor/ckeditor5-widget" "^11.1.0"
+
+"@ckeditor/ckeditor5-image@^17.0.0":
+  version "17.0.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-image/-/ckeditor5-image-17.0.0.tgz#a9feaf1e5e60e847e1c59fc692e5a5576c367286"
+  integrity sha512-I0yXh/QfiDnv8XBhBN3XJx6VYzMhc9/JcdLj2+xShd73xsWt9S+BqsJl8c/gfWmgSq5wzSrFb/QkGbnqQ+iivQ==
+  dependencies:
+    "@ckeditor/ckeditor5-clipboard" "^17.0.0"
+    "@ckeditor/ckeditor5-core" "^17.0.0"
+    "@ckeditor/ckeditor5-engine" "^17.0.0"
+    "@ckeditor/ckeditor5-ui" "^17.0.0"
+    "@ckeditor/ckeditor5-upload" "^17.0.0"
+    "@ckeditor/ckeditor5-utils" "^17.0.0"
+    "@ckeditor/ckeditor5-widget" "^17.0.0"
 
 "@ckeditor/ckeditor5-link@^11.1.2":
   version "11.1.2"

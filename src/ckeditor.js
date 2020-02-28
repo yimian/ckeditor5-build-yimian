@@ -82,17 +82,17 @@ ClassicEditor.defaultConfig = {
 		]
 	},
 	image: {
-		toolbar: [
-			'imageStyle:full',
-			'imageStyle:alignCenter',
-			'imageStyle:side',
-			'|',
-			'imageTextAlternative'
-		],
 		styles: [
 			{ name: 'full', title: 'Full size', icon: fullSizeIcon, className: 'image-style-full' },
 			{ name: 'defaultCenter', title: 'Default center', icon: alignCenterIcon, isDefault: true },
 			{ name: 'side', title: 'Side image', icon: sideIcon, className: 'image-style-side' },
+		],
+		toolbar: [
+			'imageStyle:full',
+			'imageStyle:defaultCenter',
+			'imageStyle:side',
+			'|',
+			'imageTextAlternative'
 		],
 	},
 	table: {

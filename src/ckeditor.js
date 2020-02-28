@@ -29,9 +29,9 @@ import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefrom
 import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import SimpleUploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/simpleuploadadapter';
-// import fullSizeIcon from '@ckeditor/ckeditor5-core/theme/icons/object-center.svg';
-// import sideIcon from '@ckeditor/ckeditor5-core/theme/icons/object-right.svg';
-// import alignCenterIcon from './center-default.svg';
+import fullSizeIcon from '@ckeditor/ckeditor5-core/theme/icons/object-center.svg';
+import sideIcon from '@ckeditor/ckeditor5-core/theme/icons/object-right.svg';
+import alignCenterIcon from './center-default.svg';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -90,9 +90,9 @@ ClassicEditor.defaultConfig = {
 			'imageTextAlternative'
 		],
 		styles: [
-			'full',
-			'alignCenter',
-			'side'
+			{ name: 'full', title: 'Full size', icon: fullSizeIcon },
+			{ name: 'alignCenter', title: 'Align center', icon: alignCenterIcon, isDefault: true },
+			{ name: 'side', title: 'Side image', icon: sideIcon },
 		],
 	},
 	table: {
@@ -105,5 +105,3 @@ ClassicEditor.defaultConfig = {
 	// This value must be kept in sync with the language defined in webpack.config.js.
 	language: 'en'
 };
-
-ClassicEditor.execute( 'imageStyle', { value: 'alignCenter' } );

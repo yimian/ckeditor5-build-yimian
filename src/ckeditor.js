@@ -29,9 +29,9 @@ import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefrom
 import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import SimpleUploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/simpleuploadadapter';
-// import fullSizeIcon from '@ckeditor/ckeditor5-core/theme/icons/object-center.svg';
-// import sideIcon from '@ckeditor/ckeditor5-core/theme/icons/object-right.svg';
-// import alignCenterIcon from './center-default.svg';
+import fullSizeIcon from '@ckeditor/ckeditor5-core/theme/icons/object-center.svg';
+import sideIcon from '@ckeditor/ckeditor5-core/theme/icons/object-right.svg';
+import alignCenterIcon from './center-default.svg';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -88,6 +88,11 @@ ClassicEditor.defaultConfig = {
 			'imageStyle:side',
 			'|',
 			'imageTextAlternative'
+		],
+		styles: [
+			{ name: 'full', title: 'Full size', icon: fullSizeIcon, className: 'image-style-full' },
+			{ name: 'defaultCenter', title: 'Default center', icon: alignCenterIcon, isDefault: true },
+			{ name: 'side', title: 'Side image', icon: sideIcon, className: 'image-style-side' },
 		],
 	},
 	table: {

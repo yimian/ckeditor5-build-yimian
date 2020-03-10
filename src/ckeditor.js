@@ -30,7 +30,8 @@ import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import SimpleUploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/simpleuploadadapter';
 import fullSizeIcon from '@ckeditor/ckeditor5-core/theme/icons/object-center.svg';
-import sideIcon from '@ckeditor/ckeditor5-core/theme/icons/object-right.svg';
+import alignLeftIcon from '@ckeditor/ckeditor5-core/theme/icons/object-left.svg';
+import alignRightIcon from '@ckeditor/ckeditor5-core/theme/icons/object-right.svg';
 import alignCenterIcon from './center-default.svg';
 
 export default class ClassicEditor extends ClassicEditorBase {}
@@ -85,12 +86,14 @@ ClassicEditor.defaultConfig = {
 		styles: [
 			{ name: 'fullSize', title: 'Full size', icon: fullSizeIcon, className: 'image-style-full' },
 			{ name: 'defaultCenter', title: 'Default center', icon: alignCenterIcon, isDefault: true },
-			{ name: 'side', title: 'Side image', icon: sideIcon, className: 'image-style-side' },
+			{ name: 'alignLeft', title: 'Left aligned image', icon: alignLeftIcon, className: 'image-style-align-left' },
+			{ name: 'alignRight', title: 'Right aligned image', icon: alignRightIcon, className: 'image-style-align-right' },
 		],
 		toolbar: [
 			'imageStyle:fullSize',
+			'imageStyle:alignLeft',
 			'imageStyle:defaultCenter',
-			'imageStyle:side',
+			'imageStyle:alignRight',
 			'|',
 			'imageTextAlternative'
 		],
